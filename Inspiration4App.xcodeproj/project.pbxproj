@@ -9,23 +9,53 @@
 /* Begin PBXBuildFile section */
 		488B34E02B815DB200B1A466 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 488B34DF2B815DB200B1A466 /* RealityKitContent */; };
 		488B34E22B815DB200B1A466 /* Inspiration4AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34E12B815DB200B1A466 /* Inspiration4AppApp.swift */; };
-		488B34E42B815DB200B1A466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34E32B815DB200B1A466 /* ContentView.swift */; };
-		488B34E62B815DB200B1A466 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34E52B815DB200B1A466 /* ImmersiveView.swift */; };
 		488B34E82B815DB200B1A466 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 488B34E72B815DB200B1A466 /* ImageBasedLighting.skybox */; };
 		488B34EA2B815DB400B1A466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488B34E92B815DB400B1A466 /* Assets.xcassets */; };
 		488B34ED2B815DB400B1A466 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488B34EC2B815DB400B1A466 /* Preview Assets.xcassets */; };
+		488B34F52B815E3000B1A466 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34F42B815E3000B1A466 /* Areas.swift */; };
+		488B34F92B815F6600B1A466 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34F82B815F6600B1A466 /* Area.swift */; };
+		488B34FB2B81605600B1A466 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34FA2B81605600B1A466 /* Crew.swift */; };
+		488B34FD2B8161BA00B1A466 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34FC2B8161BA00B1A466 /* ViewModel.swift */; };
+		488B34FF2B81628000B1A466 /* NavigationToAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B34FE2B81628000B1A466 /* NavigationToAreas.swift */; };
+		488B35012B816AEC00B1A466 /* CrewArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35002B816AEC00B1A466 /* CrewArea.swift */; };
+		488B35032B8171F400B1A466 /* EquipmentArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35022B8171F400B1A466 /* EquipmentArea.swift */; };
+		488B35062B8176BC00B1A466 /* CapsuleRealityArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35052B8176BC00B1A466 /* CapsuleRealityArea.swift */; };
+		488B35092B8176DA00B1A466 /* FullRocketRealityArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35082B8176DA00B1A466 /* FullRocketRealityArea.swift */; };
+		488B350B2B81907000B1A466 /* EquipmentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B350A2B81907000B1A466 /* EquipmentCard.swift */; };
+		488B350D2B819CF700B1A466 /* MissionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B350C2B819CF600B1A466 /* MissionArea.swift */; };
+		488B35102B819D2300B1A466 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488B350F2B819D2300B1A466 /* AVKit.framework */; };
+		488B35132B819D8100B1A466 /* Inspiration4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 488B35122B819D5900B1A466 /* Inspiration4.mp4 */; };
+		488B35162B8309CA00B1A466 /* CapsuleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35152B8309C900B1A466 /* CapsuleDetails.swift */; };
+		488B35192B83116800B1A466 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B35182B83116800B1A466 /* Entity+Sunlight.swift */; };
+		488B351D2B8312FF00B1A466 /* Sunlight.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 488B351C2B8312FF00B1A466 /* Sunlight.skybox */; };
+		488B35202B83153500B1A466 /* OrbitSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B351F2B83153500B1A466 /* OrbitSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		488B34DA2B815DB200B1A466 /* Inspiration4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspiration4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488B34DE2B815DB200B1A466 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		488B34E12B815DB200B1A466 /* Inspiration4AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration4AppApp.swift; sourceTree = "<group>"; };
-		488B34E32B815DB200B1A466 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		488B34E52B815DB200B1A466 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		488B34E72B815DB200B1A466 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		488B34E92B815DB400B1A466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488B34EC2B815DB400B1A466 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		488B34EE2B815DB400B1A466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488B34F42B815E3000B1A466 /* Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
+		488B34F82B815F6600B1A466 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		488B34FA2B81605600B1A466 /* Crew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
+		488B34FC2B8161BA00B1A466 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		488B34FE2B81628000B1A466 /* NavigationToAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToAreas.swift; sourceTree = "<group>"; };
+		488B35002B816AEC00B1A466 /* CrewArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewArea.swift; sourceTree = "<group>"; };
+		488B35022B8171F400B1A466 /* EquipmentArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentArea.swift; sourceTree = "<group>"; };
+		488B35052B8176BC00B1A466 /* CapsuleRealityArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRealityArea.swift; sourceTree = "<group>"; };
+		488B35082B8176DA00B1A466 /* FullRocketRealityArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullRocketRealityArea.swift; sourceTree = "<group>"; };
+		488B350A2B81907000B1A466 /* EquipmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentCard.swift; sourceTree = "<group>"; };
+		488B350C2B819CF600B1A466 /* MissionArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionArea.swift; sourceTree = "<group>"; };
+		488B350F2B819D2300B1A466 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		488B35122B819D5900B1A466 /* Inspiration4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inspiration4.mp4; path = "../../../../../Downloads/VisionOSInspiration4-master/Inspiration4/Videos/Inspiration4.mp4"; sourceTree = "<group>"; };
+		488B35152B8309C900B1A466 /* CapsuleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleDetails.swift; sourceTree = "<group>"; };
+		488B35182B83116800B1A466 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
+		488B351C2B8312FF00B1A466 /* Sunlight.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; name = Sunlight.skybox; path = "../../../../../Downloads/VisionOSInspiration4-master/Inspiration4/Resources/Sunlight.skybox"; sourceTree = "<group>"; };
+		488B351F2B83153500B1A466 /* OrbitSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488B35102B819D2300B1A466 /* AVKit.framework in Frameworks */,
 				488B34E02B815DB200B1A466 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +77,7 @@
 				488B34DC2B815DB200B1A466 /* Inspiration4App */,
 				488B34DD2B815DB200B1A466 /* Packages */,
 				488B34DB2B815DB200B1A466 /* Products */,
+				488B350E2B819D2300B1A466 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +92,15 @@
 		488B34DC2B815DB200B1A466 /* Inspiration4App */ = {
 			isa = PBXGroup;
 			children = (
+				488B351E2B83152500B1A466 /* Systems */,
+				488B35172B83113200B1A466 /* Extensions */,
+				488B34F62B815E4700B1A466 /* Areas */,
+				488B34F72B815F4F00B1A466 /* Models */,
+				488B35112B819D2A00B1A466 /* Videos */,
+				488B35042B81769C00B1A466 /* RealityViews */,
 				488B34E12B815DB200B1A466 /* Inspiration4AppApp.swift */,
-				488B34E32B815DB200B1A466 /* ContentView.swift */,
-				488B34E52B815DB200B1A466 /* ImmersiveView.swift */,
 				488B34E72B815DB200B1A466 /* ImageBasedLighting.skybox */,
-				488B34E92B815DB400B1A466 /* Assets.xcassets */,
+				488B35142B82FDE900B1A466 /* Resources */,
 				488B34EE2B815DB400B1A466 /* Info.plist */,
 				488B34EB2B815DB400B1A466 /* Preview Content */,
 			);
@@ -85,6 +121,80 @@
 				488B34EC2B815DB400B1A466 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		488B34F62B815E4700B1A466 /* Areas */ = {
+			isa = PBXGroup;
+			children = (
+				488B34F42B815E3000B1A466 /* Areas.swift */,
+				488B34FE2B81628000B1A466 /* NavigationToAreas.swift */,
+				488B35002B816AEC00B1A466 /* CrewArea.swift */,
+				488B35022B8171F400B1A466 /* EquipmentArea.swift */,
+				488B350A2B81907000B1A466 /* EquipmentCard.swift */,
+				488B350C2B819CF600B1A466 /* MissionArea.swift */,
+				488B35152B8309C900B1A466 /* CapsuleDetails.swift */,
+			);
+			path = Areas;
+			sourceTree = "<group>";
+		};
+		488B34F72B815F4F00B1A466 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				488B34F82B815F6600B1A466 /* Area.swift */,
+				488B34FA2B81605600B1A466 /* Crew.swift */,
+				488B34FC2B8161BA00B1A466 /* ViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		488B35042B81769C00B1A466 /* RealityViews */ = {
+			isa = PBXGroup;
+			children = (
+				488B35052B8176BC00B1A466 /* CapsuleRealityArea.swift */,
+				488B35082B8176DA00B1A466 /* FullRocketRealityArea.swift */,
+			);
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+		488B350E2B819D2300B1A466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				488B350F2B819D2300B1A466 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488B35112B819D2A00B1A466 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				488B35122B819D5900B1A466 /* Inspiration4.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		488B35142B82FDE900B1A466 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				488B351C2B8312FF00B1A466 /* Sunlight.skybox */,
+				488B34E92B815DB400B1A466 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		488B35172B83113200B1A466 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				488B35182B83116800B1A466 /* Entity+Sunlight.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		488B351E2B83152500B1A466 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				488B351F2B83153500B1A466 /* OrbitSystem.swift */,
+			);
+			path = Systems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488B35132B819D8100B1A466 /* Inspiration4.mp4 in Resources */,
 				488B34EA2B815DB400B1A466 /* Assets.xcassets in Resources */,
+				488B351D2B8312FF00B1A466 /* Sunlight.skybox in Resources */,
 				488B34ED2B815DB400B1A466 /* Preview Assets.xcassets in Resources */,
 				488B34E82B815DB200B1A466 /* ImageBasedLighting.skybox in Resources */,
 			);
@@ -161,9 +273,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488B34E42B815DB200B1A466 /* ContentView.swift in Sources */,
+				488B35192B83116800B1A466 /* Entity+Sunlight.swift in Sources */,
+				488B35162B8309CA00B1A466 /* CapsuleDetails.swift in Sources */,
+				488B34FD2B8161BA00B1A466 /* ViewModel.swift in Sources */,
+				488B34F52B815E3000B1A466 /* Areas.swift in Sources */,
+				488B34F92B815F6600B1A466 /* Area.swift in Sources */,
+				488B35012B816AEC00B1A466 /* CrewArea.swift in Sources */,
+				488B34FF2B81628000B1A466 /* NavigationToAreas.swift in Sources */,
+				488B35062B8176BC00B1A466 /* CapsuleRealityArea.swift in Sources */,
+				488B35092B8176DA00B1A466 /* FullRocketRealityArea.swift in Sources */,
+				488B34FB2B81605600B1A466 /* Crew.swift in Sources */,
 				488B34E22B815DB200B1A466 /* Inspiration4AppApp.swift in Sources */,
-				488B34E62B815DB200B1A466 /* ImmersiveView.swift in Sources */,
+				488B350B2B81907000B1A466 /* EquipmentCard.swift in Sources */,
+				488B35202B83153500B1A466 /* OrbitSystem.swift in Sources */,
+				488B35032B8171F400B1A466 /* EquipmentArea.swift in Sources */,
+				488B350D2B819CF700B1A466 /* MissionArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
